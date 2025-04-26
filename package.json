@@ -1,0 +1,18 @@
+
+{
+  "name": "niuniu",
+  "version": "1.0.0",
+  "description": "牛牛游戏完整项目",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "socket.io": "^4.6.1"
+  }
+}

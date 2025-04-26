@@ -1,0 +1,11 @@
+
+services:
+  - type: web
+    name: niuniu-game
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://1022878130:hjdcy892@cluster0.eefpfox.mongodb.net/niuniu?retryWrites=true&w=majority
